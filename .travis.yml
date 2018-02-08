@@ -15,11 +15,10 @@ node_js:
 services:
   - rabbitmq  
 before_install:
-  
+
 install: 
   
 before_script:  
-  - "amqp://guest:guest@127.0.0.1:5672/?heartbeat=30"  
   - "rabbitmqctl status"
 script:  
   
