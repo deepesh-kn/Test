@@ -19,7 +19,7 @@ before_install:
 install: 
   
 before_script:  
-  - "rabbitmqctl list_queues"
+  - "ps aux | grep 'rabbit'"
 script:  
   
 after_script:
