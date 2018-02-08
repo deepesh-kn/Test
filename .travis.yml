@@ -19,7 +19,7 @@ before_install:
 install: 
   
 before_script:  
-  - "rabbitmqctl status"
+  - "rabbitmqctl list_queues"
 script:  
   
 after_script:
