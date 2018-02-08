@@ -1,0 +1,27 @@
+dist: trusty
+language: node_js
+sudo: required
+branches:
+  only:
+  - master  
+notifications:
+  email:
+    recipients:
+      - deepesh@ost.com      
+    on_success: always
+    on_failure: always
+node_js:
+  - "8"  
+services:
+  - rabbitmq  
+before_install:
+  
+install: 
+  
+before_script:  
+  
+script:  
+  
+after_script:
+  
+  
